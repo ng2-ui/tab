@@ -31,8 +31,7 @@ import { Ng2TabComponent } from 'ng2-tab';
       <div contents="js">Javascript {{1}}</div>
     </div>
   </ng2-tab>
-  `,
-  styles: [` `]
+  `
 })
 export class AppComponent {
   foo = 'foo';

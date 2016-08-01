@@ -70,7 +70,7 @@ var Ng2TabComponent = (function () {
             selector: 'ng2-tab, [ng2-tab]',
             encapsulation: core_1.ViewEncapsulation.None,
             template: "<ng-content></ng-content>",
-            styles: ["\n  "],
+            styles: ["\n    .tabs {\n      position: relative;\n      top: 1px;\n      background: transparent;\n      display: block;\n    }\n    .tabs [index] {\n      display: inline-block;\n      border: 1px solid #999;\n      padding: 5px 10px;\n      border-radius: 2px 2px 0 0;\n    }\n    .tabs [index].selected {\n      padding-top: 0;\n      background: #f7f7f7;\n      border-top: 5px solid #00BCD4;\n      border-bottom: 1px solid transparent;\n    }\n    .tab-contents {\n      border: 1px solid #999;\n      border-radius: 2px;\n      min-height: 3em;\n    }\n  "],
         }), 
         __metadata('design:paramtypes', [core_1.ViewContainerRef])
     ], Ng2TabComponent);

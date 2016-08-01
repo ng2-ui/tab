@@ -10,6 +10,29 @@ import {
   encapsulation: ViewEncapsulation.None,
   template: `<ng-content></ng-content>`,
   styles: [`
+    .tabs {
+      position: relative;
+      top: 1px;
+      background: transparent;
+      display: block;
+    }
+    .tabs [index] {
+      display: inline-block;
+      border: 1px solid #999;
+      padding: 5px 10px;
+      border-radius: 2px 2px 0 0;
+    }
+    .tabs [index].selected {
+      padding-top: 0;
+      background: #f7f7f7;
+      border-top: 5px solid #00BCD4;
+      border-bottom: 1px solid transparent;
+    }
+    .tab-contents {
+      border: 1px solid #999;
+      border-radius: 2px;
+      min-height: 3em;
+    }
   `],
 })
 export class Ng2TabComponent {
