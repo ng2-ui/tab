@@ -1,9 +1,7 @@
 import { Component } from '@angular/core';
-import { Ng2TabComponent } from 'ng2-tab';
 
 @Component({
   selector: 'my-app',
-  directives: [Ng2TabComponent],
   template: `
   <div ng2-tab> <!-- this makes all tab  possible -->
     <div class="tabs">
