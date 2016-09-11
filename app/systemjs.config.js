@@ -17,9 +17,9 @@
   };
 
   map['ng2-tab'] = '../dist';
-  packages['ng2-tab'] = {main: 'index.js', defaultExtension: 'js'};
-  map['ng2-tab'] = '../src';
-  packages['ng2-tab'] = {main: 'index.ts', defaultExtension: 'ts'};
+  packages['ng2-tab'] = {main: 'ng2-tab.umd.js', defaultExtension: 'js'};
+  // map['ng2-tab'] = '../src';
+  // packages['ng2-tab'] = {main: 'index.ts', defaultExtension: 'ts'};
 
   System.config({
     transpiler: 'typescript', //use typescript for compilation
