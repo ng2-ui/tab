@@ -1,9 +1,9 @@
 {
   "name": "ng2-tab",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Angular2 Tab Component",
   "license": "MIT",
-  "main": "dist/ng2-tag.umd.js",
+  "main": "dist/ng2-tab.umd.js",
   "typings": "dist/index.d.ts",
   "scripts": {
     "start": "http-server -o",
