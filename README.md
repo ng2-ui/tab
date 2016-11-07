@@ -14,7 +14,7 @@ Angular2 Tab Component
 2. add `map` and `packages` to your `systemjs.config.js`
 
         map['ng2-tab'] = 'node_modules/ng2-tab/dist';
-        packages['ng2-tab'] = { main: 'index.js', defaultExtension: 'js' }
+        packages['ng2-tab'] = { main: 'ng2-tab.umd.js', defaultExtension: 'js' }
 
 3. import Ng2Tab to your AppModule
 
