@@ -1,7 +1,7 @@
 # ng2-tab
 Angular2 Tab Component 
 
-<a href="https://ng2-ui.github.io/#/ng2-tab">
+<a href="https://rawgit.com/ng2-ui/ng2-tab/master/app/index.html">
   Demo
 </a>
 
