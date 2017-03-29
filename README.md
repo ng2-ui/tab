@@ -1,31 +1,30 @@
-# ng2-tab
+# tab
 Angular2 Tab Component 
 
-<a href="https://rawgit.com/ng2-ui/ng2-tab/master/app/index.html">
+<a href="https://rawgit.com/ng2-ui/tab/master/app/index.html">
   Demo
 </a>
 
 ## Install
 
-1. install ng2-tab
+1. install @ngui/tab
 
-        $ npm install ng2-tab --save
+        $ npm install @ngui/tab --save
 
 2. add `map` and `packages` to your `systemjs.config.js`
 
-        map['ng2-tab'] = 'node_modules/ng2-tab/dist';
-        packages['ng2-tab'] = { main: 'ng2-tab.umd.js', defaultExtension: 'js' }
+        map['@ngui/tab'] = 'node_modules/tab/dist/tab.umd.js';
 
-3. import Ng2Tab to your AppModule
+3. import NguiTab to your AppModule
 
         import { NgModule } from '@angular/core';
         import { FormsModule } from "@angular/forms";
         import { BrowserModule  } from '@angular/platform-browser';
         import { AppComponent } from './app.component';
-        import { Ng2Tab } from 'ng2-tab';
+        import { NguiTabModule } from '@ngui/tab';
         
         @NgModule({
-          imports: [BrowserModule, FormsModule, Ng2Tab],
+          imports: [BrowserModule, FormsModule, NguiTabModule],
           declarations: [AppComponent],
           bootstrap: [ AppComponent ]
         })
@@ -40,7 +39,7 @@ For full example, please check out `test` directory to see the example of;
 
 ## Use it in your code
 
-    <ng2-tab
+    <ngui-tab
       selected="js"
       selected-index-class="selected"
       selected-contents-class="fadeIn animated">
@@ -52,7 +51,7 @@ For full example, please check out `test` directory to see the example of;
         <div contents="html">HTML {{1}}</div>
         <div contents="js">Javascript {{1}}</div>
       </div>
-    </ng2-tab>
+    </ngui-tab>
           
 ## **ng2-ui** welcomes new members and contributors
 
@@ -79,8 +78,8 @@ please send me email to `allenhwkim AT gmail.com` with your github id.
 
 ### To start
 
-    $ git clone https://github.com/ng2-ui/ng2-tab.git
-    $ cd ng2-tab
+    $ git clone https://github.com/ng2-ui/tab.git
+    $ cd tab
     $ npm install
     $ npm start
 

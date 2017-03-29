@@ -1,6 +1,6 @@
 "use strict";
-var ng2_tab_component_1 = require("./ng2-tab.component");
-exports.Ng2TabComponent = ng2_tab_component_1.Ng2TabComponent;
-var ng2_tab_module_1 = require("./ng2-tab.module");
-exports.Ng2TabModule = ng2_tab_module_1.Ng2TabModule;
+var tab_component_1 = require("./tab.component");
+exports.NguiTabComponent = tab_component_1.NguiTabComponent;
+var tab_module_1 = require("./tab.module");
+exports.NguiTabModule = tab_module_1.NguiTabModule;
 //# sourceMappingURL=index.js.map

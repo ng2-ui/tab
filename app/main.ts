@@ -14,10 +14,10 @@ import { FormsModule }    from "@angular/forms";
 import { AppComponent }   from './app.component';
 
 //noinspection TypeScriptCheckImport
-import { Ng2TabModule }  from 'ng2-tab';
+import { NguiTabModule }  from '@ngui/tab';
 
 @NgModule({
-  imports: [BrowserModule, FormsModule, Ng2TabModule],
+  imports: [BrowserModule, FormsModule, NguiTabModule],
   declarations: [AppComponent],
   bootstrap: [ AppComponent ]
 })
