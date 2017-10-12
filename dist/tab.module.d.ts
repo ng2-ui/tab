@@ -1,4 +1,14 @@
 import { NguiTabComponent } from "./tab.component";
-export { NguiTabComponent };
+import { NgModule } from '@angular/core';
+@NgModule({
+  declarations: [
+    NguiTabComponent
+  ],
+  exports: [
+    NguiTabComponent
+  ]
+})
 export declare class NguiTabModule {
 }
+
+export { NguiTabComponent };
