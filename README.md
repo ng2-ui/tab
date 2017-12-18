@@ -1,8 +1,8 @@
 # tab
 Angular2 Tab Component 
 
-## NOTE: NOT-MATAINED. 
-Accepting volunteers and ready to transfer full power to who wants to maintain this repo.
+## NOTE: NOT-MAINTAINED
+Accepting volunteers and ready to transfer ownership.
 
 <a href="https://rawgit.com/ng2-ui/tab/master/app/index.html">
   Demo
