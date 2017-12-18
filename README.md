@@ -1,8 +1,9 @@
 # tab
 Angular2 Tab Component 
 
-## NOTE: NOT-MAINTAINED
+## IMPORTANT: NOT-MATAINED. 
 Accepting volunteers and ready to transfer ownership.
+
 
 <a href="https://rawgit.com/ng2-ui/tab/master/app/index.html">
   Demo
